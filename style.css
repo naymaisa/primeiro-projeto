@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6ead9;
+}
+
+.dynapuff {
+    font-family: "DynaPuff", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header,
+section h2,
+h1 {
+    font-family: "DynaPuff", system-ui;
+}
+
+h1,
+h2 {
+    font-size: 200%;
+}
+
+body {
+    font-family: "Roboto", serif;
+}
+
+header {
+    padding: 16px 0;
+    background-color: rgb(223, 151, 124);
+    color: rgb(53, 113, 155);
+}
+
+
+
+header h1,
+section h2 {
+    font-size: normal;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+
+header nav li a {
+    color: rgb(53, 113, 155);
+    text-decoration: none;
+}
+
+header nav li a:hover {
+    color: rgb(100, 150, 200);
+}
+
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 20px;
+    /* Adiciona espaço interno à esquerda */
+    padding-right: 20px;
+    /* Adiciona espaço interno à direita, se necessário */
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+section,
+h1 {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+
+section {
+    color: rgb(126, 58, 10);
+}
+
+
+section p {
+    margin-bottom: 8px;
+    margin-right: 126px;
+}
+
+.container p {
+    text-align: justify;
+}
+
+.girl {
+    margin-right: 32px;
+    margin-top: 32px;
+    margin-bottom: 50px;
+}
+
+.menu-title {
+    margin-left: 140px;
+}
+
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.articles article img {
+    height: 200px;
+}
+
+.articles article {
+    width: 30%;
+}
+
+.articles article p,
+h3 {
+    text-align: justify;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    cursor: pointer;
+}
+
+footer {
+    background-color: rgb(223, 151, 124);
+    color: rgb(53, 113, 155);
+    padding: 16px 0;
+
+}
